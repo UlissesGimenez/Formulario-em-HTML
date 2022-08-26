@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Formulário de emprego </h1>
+    <id class="form"></id><form name= "form1" method="post" action="">
+        <fieldset><legend> <b> Dados Necessários </b> </legend>
+        Informe seu nome:        <input  class="input" name="Nome" type="text"    pattern="[a-zA-Z]+" required="required">
+        Digite seu Email:           <input class="input" type="email"  required="required"   >
+        Informe a Hora do Cadastro:  <input class="input" type="time"> <br /> <br />
+        
+        Genero:             
+                             <input class="input" type="RADIO" name="Sexo" value="F">Feminino
+						        <input class="input" type="RADIO" name="Sexo" value="M">Masculino<br /> <br />
+        Possui Filhos?          
+                                <input class="input" type="radio"   name="filhos"  value="S"> Sim 
+                                <input class="input" type="radio"   name="filhos"  value="N"> Não<br /> <br />
+       
+       Numero de filhos:       
+                                <input class="input" type="number" min="0" max="10"><br /> <br />
+      
+       Possui Automóvel?     
+                               <input class="input" type="radio"   name="Automóvel"  value="S"> Sim 
+                               <input class="input" type="radio"   name="Automóvel"  value="N"> Não<br /> <br />
+
+      Informe Telefone para Contato:
+                                 <input class="input" type="tel" pattern="^\d{0-9}-\d{0-9}-\d{0-9}$"  required="required" >    <br />    <br />
+      Informe um Telefone alternativo:
+                               <input class="input" type="tel" pattern="^\d{0-9}-\d{0-9}-\d{0-9}$" >      <br />    <br />
+      
+      <br /> Conte um Pouco sobre você: <br />
+                               <textarea class="input" name="sobre" rows="5" cols="60"></textarea><br /> <br />
+      
+      Como ficou sabendo sobre a vaga?:  <br/>
+                                <input type="checkbox" value="vaga"> Amigos
+                                <input type="checkbox" value="vaga"> Redes Sociais  
+                                <input type="checkbox" value="vaga"> Anuncios
+                                <input type="checkbox" value="vaga"> Outros <br/>
+
+<br />                               <input class="botao"type="submit"> <input class="botao"type="reset">                              
+
+                                
+                                
+</body>
+</html>

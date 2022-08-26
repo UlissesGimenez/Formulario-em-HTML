@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to right, #062c3b, #002c3d);
+}
+h1 {
+    color: #bfdbf7;
+}
+form {
+    color: #bfdbf7;
+}
+
+fieldset {
+    border-radius: 20px;
+    border-width: 2px;
+    box-shadow: 4px 4px #bfdbf7;
+}
+
+.botao:hover {
+    background-color: rgb(138, 137, 137);
+    color: #000000;
+    border: none;
+}
+
+.botao {
+    width: 65px;
+    height: 26px;
+    border-radius: 25px;
+}
+
+.input {
+    background-color: #093969;
+    color: white;
+}
